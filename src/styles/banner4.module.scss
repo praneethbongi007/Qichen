@@ -1,0 +1,68 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    position: relative;
+.meet{
+
+margin-top: 8rem;
+
+.img1{
+
+position: absolute;
+top: 20%;
+left: 3%;
+}
+
+}
+    .one{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 25px;
+      color: #DF3F00;
+      margin-top: 1rem;  
+    }
+    .two{
+      font-size: 45px;
+      font-family: 'Times New Roman', Times, serif;
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+    .three{
+     
+      margin-top: 1rem;
+      font-family:Arial, Helvetica, sans-serif;
+      margin-left: 3rem;
+      font-size: 20px;
+  
+    }
+    .four{
+      font-family:Arial, Helvetica, sans-serif;
+      margin-left: 3rem;
+      color: gray;
+      margin-top: 1rem;
+      font-size: 20px;
+
+    }
+  
+    .btn{
+      height: 60px;
+      width: 160px;
+      background-color: #DF3F00;
+      margin-left: 3rem;
+      border-radius: 5px;
+      color: white;
+      border: none;
+      font-weight: bold;
+      margin-top: 2rem;
+
+    }
+    .chefs{
+      width: 280px;
+      height: 300px;
+      
+    }
+  }

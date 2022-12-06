@@ -1,0 +1,79 @@
+.Vedio {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    position: relative;
+
+.img1{
+
+ position: absolute;
+ top: 7%;   
+ right: 35%;
+}
+
+
+.play{
+    font-size: 35px;
+    color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color:white;
+    position: absolute;
+    left: 28%;
+    top: 43%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+    .watch {
+        font-size: 23px;
+        color: #DF3F00;
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+
+    .watch1 {
+        font-size: 35px;
+        margin-top: 2rem;
+        line-height: 0.4rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .lorem {
+        font-size: 20px;
+        margin: 0.5rem;
+        color: grey;
+        margin-top: 1.8rem;
+        line-height: 0.2rem;
+    }
+
+    .best {
+        font-size: 20px;
+        margin-top: 2rem;
+    }
+
+    .lowcost {
+        font-size: 20px;
+        margin-top: 1.5rem;
+    }
+
+    .button {
+        width: 180px;
+        height: 60px;
+        background-color: #DF3F00;
+        color: white;
+        border: none;
+        margin-top: 3.8rem;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .button:hover {
+
+        background-color: black;
+        color: #fff;
+    }
+}

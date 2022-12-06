@@ -1,0 +1,14 @@
+.instamain{
+    margin-top: 5rem;
+    .insta{
+       display: grid;
+       grid-template-columns: auto auto auto auto auto auto;
+       margin-left: 1.2rem;
+    }
+    
+    .imgs{
+        width: 230px;
+        row-gap: 2rem;
+        margin-top: 1.5rem;
+    }
+}

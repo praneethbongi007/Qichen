@@ -1,0 +1,51 @@
+@import "./constants.scss";
+
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    width: 100%;
+
+    .logo {
+border-radius: 5px;
+        background-color: orangered;
+        width: 150px;
+        height: 60px;
+    }
+
+    .list {
+
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+        font-size: 20px;
+        margin-right: 20rem;
+        @include robotoRegular;
+        font-weight: bold;
+    }
+
+    .book {
+        border-radius: 5px;
+
+        background-color: orangered;
+        width: 150px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include robotoRegular;
+    }
+
+    .num {
+
+        font-size: 20px;
+        @include robotoRegular;
+    }
+
+}

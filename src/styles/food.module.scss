@@ -1,0 +1,41 @@
+
+.menu{
+  position: relative;
+.img1{
+position: absolute;
+top: 1%;
+left: 38%;
+}
+.img2{
+  position: absolute;
+  top: 1%;
+  left:57%
+  }
+
+    .food{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color:#DF3F00;
+     margin-top: 5rem;
+     font-size: 23px;
+    } 
+    .choose{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   margin-top: 1rem;
+   font-family:'Times New Roman', Times, serif;
+   font-size: 42px;
+ 
+    }
+    .menuimg{
+     height: 700px;
+     width: 500px;
+    }
+  .page{
+
+    margin-top: 3rem;
+  }
+ 
+ }

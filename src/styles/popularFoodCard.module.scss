@@ -1,0 +1,23 @@
+.container {
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: orangered;
+   
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: whitesmoke;
+        width: 250px;
+        height: 100px;
+        border: 2px solid;
+        gap: 1rem;
+    }
+
+
+
+}
+

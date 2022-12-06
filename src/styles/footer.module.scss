@@ -1,0 +1,62 @@
+.main{
+    background-color: rgb(255, 237, 241);
+    height: 430px;
+    margin-top: 3rem;
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    .sit{
+        font-size: 17px;
+        font-family: sans-serif;
+        color: gray;
+        margin-top: 1rem;
+    }
+    .anc{
+        font-size: 17px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: gray;
+       display: flex;
+       flex-direction: row;
+       
+    }
+    .anc:hover{
+        color: orangered;
+    }
+    .number{
+        font-family: "Forum";
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    .number:hover{
+        color:orangered
+    }
+    .mail:hover{
+        color: orangered;
+    }
+}
+    .border{
+  
+        width: 100%;
+        border-bottom: 1px solid grey;
+    }
+    .flexbox{
+        display: flex;
+        justify-content:center;
+        gap:33rem;
+        margin-top: 2rem;
+    }
+    .anc{
+        font-size: 17px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: gray;
+       display: flex;
+       flex-direction: row;
+       
+    }
+    .anc:hover{
+        color: orangered;
+    }
+}

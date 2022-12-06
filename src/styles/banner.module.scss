@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(250, 230, 231);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem 0;
+
+.bg{
+
+   background-image: url("https://demo.webtend.net/html/qichen/assets/images/shape/line-1.png"); 
+   background-repeat: no-repeat;
+}
+
+    div {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        padding-left: 5rem;
+        gap: 2rem;
+
+        h1 {
+            width: 60%;
+            font-size: 6rem;
+            font-weight: normal;
+          
+
+        }
+
+        p {
+            width: 35rem;
+            font-size: 1.2rem;
+       
+
+        }
+
+        .btn {
+            display: flex;
+
+            img {
+                width: 3rem;
+                height: auto;
+            }
+
+            button {
+                width: 10rem;
+                height: 3rem;
+                border: none;
+                background-color: orangered;
+                color: white;
+
+            }
+        }
+
+    }
+
+    div {
+
+        img {
+            width: 40rem;
+        }
+    }
+}
